@@ -1,4 +1,3 @@
-=======
 # MyQuantBot — A股量化选股机器人
 [![Python Version](https://img.shields.io/badge/Python-3.9+-blue?svg=true&logo=python&logoColor=white)](https://github.com)
 [![Gemini AI](https://img.shields.io/badge/AI-Gemini%201.5%20Flash-orange?svg=true&logo=google-gemini&logoColor=white)](https://github.com)
