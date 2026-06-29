@@ -29,19 +29,17 @@ MyQuantBot/
 ├── scorer.py                  # 动态评分引擎
 │
 ├── strategies/                # 策略插件目录
-│   ├── alpha_break.py         # 华尔街趋势突破（MA20+量比+大实体）
-│   ├── donchian.py            # 唐奇安通道突破（20日高点+中位数量比）
-│   ├── rsi_mom.py             # RSI动量稳健（Wilder RSI+MA20斜率）
-│   ├── bollinger.py           # 布林带超卖反弹（带宽扩张+双均线）
-│   ├── macd_golden.py         # MACD零轴金叉（DIF连续改善+DEA向上）
-│   ├── volume_price_surge.py  # 量价齐升启动（O'Neil Dry-up突破）
-│   ├── turtle_atr_breakout.py # 海龟ATR突破（Dennis原版+波动率扩张）
-│   ├── ema_ribbon.py          # 均线彩虹多头（Weinstein Stage 2）
-│   └── institutional_accumulation.py  # 主力吸筹突破（Wyckoff底部形态）
-│
-└── tracking/                  # 持仓追踪（Serenity 版）
-    ├── score_tracker.py       # 每日证伪止损检测
-    └── forward_picks.csv      # 活跃持仓池
+   ├── alpha_break.py         # 华尔街趋势突破（MA20+量比+大实体）
+   ├── donchian.py            # 唐奇安通道突破（20日高点+中位数量比）
+   ├── rsi_mom.py             # RSI动量稳健（Wilder RSI+MA20斜率）
+   ├── bollinger.py           # 布林带超卖反弹（带宽扩张+双均线）
+   ├── macd_golden.py         # MACD零轴金叉（DIF连续改善+DEA向上）
+   ├── volume_price_surge.py  # 量价齐升启动（O'Neil Dry-up突破）
+   ├── turtle_atr_breakout.py # 海龟ATR突破（Dennis原版+波动率扩张）
+   ├── ema_ribbon.py          # 均线彩虹多头（Weinstein Stage 2）
+   └── institutional_accumulation.py  # 主力吸筹突破（Wyckoff底部形态）
+
+
 ```
 
 ---
